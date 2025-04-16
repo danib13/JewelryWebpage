@@ -23,6 +23,7 @@ p {
 
 a:hover {
     color: rgb(104, 102, 102);
+    font-size: large;
 }
 
 /*img descendant of header*/
@@ -147,8 +148,14 @@ p #dealLink {
     text-justify: right;
     border-color: green;
     border-style: solid;
-    background-color: rgba(255, 255, 255, 0);
+    
     color:green;
     border-radius: 25px;
     padding: 0.7rem;
+}
+
+#dealLink:hover {
+    background-color: green;
+    color:white;
+    font-size: medium;
 }
